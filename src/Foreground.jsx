@@ -13,7 +13,7 @@ function Foreground() {
         desc:"loreme ipsum dollor sit amet conssectetur adisicing.2",
         filesize:".9mb",
         close:false,
-        tag:{isOpen:true , tagTitle:"Download Now", tagColor:'blue'}
+        tag:{isOpen:true , tagTitle:"Upload", tagColor:'blue'}
     },
     {
         desc:"loreme ipsum dollor sit amet conssectetur adisicing.3",
