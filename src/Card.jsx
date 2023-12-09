@@ -17,7 +17,7 @@ function Card({data ,referance}) {
               {data.close?<GoDownload className='bg-zinc-500 w-6 h-6 rounded-full p-1'/>:<MdClose className='bg-zinc-500 w-6 h-6 rounded-full p-1'/>}
             </div>
             {data.tag.isOpen?(
-              <div className={`bg-${data.tag.tagColor}-600 px-2 py-3`}>
+              <div className={`${data.tag.tagColor=="blue"?"bg-blue-600":"bg-green-600"} px-2 py-3`}>
                 <h1 className='text-center'>{data.tag.tagTitle}</h1>
             </div>):""}
             
