@@ -5,7 +5,7 @@ function Foreground() {
     const ref = useRef(null);
     const datas = [{
         desc:"loreme ipsum dollor sit amet conssectetur adisicing.1",
-        filesize:".9mb",
+        filesize:".5mb",
         close:true,
         tag:{isOpen:true , tagTitle:"Download Now", tagColor:'green'}
     },
